@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style-a.css">
+    <title>Web Admin</title>
+</head>
+<body>
+<div class="container">
+        <div class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="a-penerimaan.php">Laporan Penerimaan</a></li>
+                    <li><a href="a-pengeluaran.php">Laporan Pengeluaran</a></li>
+                    <li><a href="keluar.php">Keluar</a></li>
+                </ul>
+            </nav>
+        </div>
+        <main class="content">
+            <section class="hero">
+            <div class="hero-content">
+            <h3>  
+            <left>TAMBAH DATA PENERIMAAN</left>  
+            </h3>  
+            <br />  
+            <a href="a-penerimaan.php">KEMBALI</a>  
+            <br/>  
+            <form method="post" action="input2.php">  
+            <table>  
+                <tr>  
+                    <td>Id_Penerimaan</td>  
+                    <td>:</td>  
+                    <td><input type="text"name="id_penerimaan"/></td> 
+                </tr>  
+                <tr>  
+                    <td>Tanggal</td>  
+                    <td>:</td>  
+                    <td><input type="date"name="tanggal"/></td>  
+                </tr>  
+                <tr>  
+                   <td>Nama</td>  
+                   <td>:</td>  
+                   <td><input type="text"name="nama"/></td>  
+                   </tr>
+                <tr>  
+                   <td>Jumlah</td>  
+                   <td>:</td>  
+                   <td><input type="text"name="jumlah"/></td>  
+                </tr>    
+                <tr>  
+                <td></td>  
+                <td></td>  
+                <td><input type="submit"value="Simpan"/></td>  
+                </tr>    
+            </table>  
+            <form>  
+            </div>
+            </section>
+        </div>
+    </div>    
+</body>
+</html

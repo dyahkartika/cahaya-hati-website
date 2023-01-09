@@ -1,0 +1,155 @@
+* {
+    max-width: 1600px;
+}
+
+body {
+    background-color: #fff3e2;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff3e2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  
+li {
+    float: right;
+    padding-right: 10px;
+}
+  
+li a {
+    display: block;
+    color: #632b2b;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar ul li.nav {
+    display: inline-table;
+}
+  
+.navbar ul li :hover {
+    background-color: #fff;
+}
+  
+.nav ul {
+    display: none;
+    z-index: 2;
+}
+  
+.nav:hover ul {
+    display: block;
+}
+  
+.nav ul li {
+    display: block;
+    background-color: #fff3e2;
+    width: 100px;
+}
+
+.up {
+    padding: 64;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.p1 {
+    opacity: 0.7;
+}
+
+.p2 {
+    padding-left: 290px;
+    padding-right: 290px;
+}
+
+.gal-j {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.gal {
+    padding-left: 350px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+div.gallery {
+    border: 1px solid #ccc;
+    border-width: 0.5px;
+
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+    border-width: 0.5px;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 20.99999%;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.chy {
+    margin: 5vh;
+}
+
+.don {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-direction: row;
+    padding: 4px;
+    padding-left: 335px;
+    max-width: 700px;
+}
+
+.h-don{
+    padding: 2px;
+}
+
+.p-don {
+    color: rgb(128, 128, 128, 0.9);
+}
+
+input[type=text] {
+    width: 400px;
+    box-sizing: border-box;
+}
+
+table {
+    border-collapse: collapse;
+
+}
+  
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+  
+tr:hover {background-color: rgb(148, 148, 148);}
+
+.foot {
+    background-color: rgb(255, 212, 169, 0.7);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1px;
+    color: #632b2b;
+}
